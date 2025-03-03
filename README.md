@@ -1,64 +1,56 @@
 # Airport App API
 
-**Airport App API** to RESTful API stworzone w .NET, umożliwiające zarządzanie rezerwacjami lotniczymi.
+**Airport App API** is a RESTful API built with .NET, designed for managing flight reservations.
 
-## 📌 Funkcjonalności
+## 📌 Features
 
-- Zarządzanie lotniskami, lotami i rezerwacjami
-- Obsługa CRUD dla głównych zasobów
-- Autoryzacja i uwierzytelnianie użytkowników
-- Walidacja danych wejściowych
+- Management of airports, flights, and reservations
+- CRUD operations for main resources
+- Input data validation
 
-## 🛠️ Wymagania
+## 🛠️ Requirements
 
-- .NET 5.0 lub nowszy
+- .NET 5.0 or newer
 
-## 🚀 Instalacja
+## 🚀 Installation
 
-1. **Sklonuj repozytorium**
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/JakubTeichman/Airport_App_API.git
    cd Airport_App_API
    ```
 
-2. **Zainstaluj zależności**
+2. **Install dependencies**
 
    ```bash
    dotnet restore
    ```
 
-3. **Uruchom aplikację**
+3. **Run the application**
 
    ```bash
    dotnet run
    ```
 
-   Aplikacja będzie dostępna pod adresem `https://localhost:5001`.
+   The application will be available at `https://localhost:5001`.
 
-## 🔗 Endpointy API
+## 🔗 API Endpoints
 
-- `GET /api/airports` - Pobiera listę lotnisk
-- `POST /api/airports` - Dodaje nowe lotnisko
-- `GET /api/flights` - Pobiera listę lotów
-- `POST /api/flights` - Dodaje nowy lot
-- `GET /api/reservations` - Pobiera listę rezerwacji
-- `POST /api/reservations` - Tworzy nową rezerwację
+- `GET /api/airports` - Retrieves a list of airports
+- `POST /api/airports` - Adds a new airport
+- `GET /api/flights` - Retrieves a list of flights
+- `POST /api/flights` - Adds a new flight
+- `GET /api/reservations` - Retrieves a list of reservations
+- `POST /api/reservations` - Creates a new reservation
 
-## 🧪 Testowanie API
+## 🧪 API Testing
 
-Aby przetestować API, zaleca się użycie Swagger UI. Po uruchomieniu aplikacji przejdź do:
+To test the API, it is recommended to use Swagger UI. After starting the application, navigate to:
 
 ```
 https://localhost:5001/swagger
 ```
 
-Swagger umożliwia interaktywne testowanie endpointów oraz podgląd dokumentacji API.
-
-## 📜 Licencja
-
-Projekt jest udostępniony na licencji MIT.
-
----
-Jeśli masz pytania lub sugestie, zapraszam do kontaktu! ✈️
+Swagger allows interactive testing of endpoints and provides API documentation.
 
