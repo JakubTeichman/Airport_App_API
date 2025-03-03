@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JdN+M0TY84kRrP6j6mSnyIu/v+3A/EBUhFFYerIY7hm4oJ9SgcOwfPF5A5pYjp2pp7uexNoP56Wq7tIN6A5ezw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jakub\\Desktop\\ProjektAirSystem\\ProjectAirport\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jakub\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
